@@ -50,7 +50,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Divy Jain',
-        helpText: 'This is some helpful text'
+        helpText: 'This is a weather application. To use the application you should jump over to the Weather tab. Right over there in the Weather tab you\'ll be able to search for you city in the text field. Once you have entered the search text, hit the Search button and get the city\'s current weather information.'
     })
 })
 
